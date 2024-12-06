@@ -10,7 +10,7 @@ import {
 } from "./definitions";
 import { formatCurrency } from "./utils";
 
-let client = await db.connect();
+const client = await db.connect();
 
 export const dbClient = client;
 
